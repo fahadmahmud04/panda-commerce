@@ -1,0 +1,30 @@
+.form-control {
+    border-radius: 15px;
+}
+
+.orange-bg {
+    background: #feeae9;
+    border-radius: 10px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.carousel-item {
+    padding: 30px 30px;
+
+}
+
+.price {
+    color: #ff136f;
+}
+
+.buy-now-btn {
+    padding: 10px 25px;
+    background-image: linear-gradient(to bottom, #ff589b, #ff136f);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
