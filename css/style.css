@@ -28,3 +28,57 @@
     cursor: pointer;
     border: none;
 }
+
+.catagories h1 {
+    color: #eeeded;
+}
+
+.catagories img {
+    width: 100px;
+}
+
+.cat-1,
+.cat-2,
+.cat-3 {
+    padding: 10px 30px;
+}
+
+.cat-1 {
+    background: linear-gradient(to right, #e6ab07, #ff9900);
+    border-radius: 10px;
+}
+
+.cat-2 {
+    background: linear-gradient(to right, #ec50b0, #d11f81);
+    border-radius: 10px;
+}
+
+.cat-3 {
+    background: linear-gradient(to right, #674ce2, #4515c7);
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-footer {
+    background: #fff;
+    border: none;
+}
+
+#contacts {
+    height: 300px;
+}
+
+.footer {
+    text-align: center;
+    height: 10px;
+}
+
+hr {
+    height: 1px;
+    color: #bebbc5;
+}
