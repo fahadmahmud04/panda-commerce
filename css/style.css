@@ -1,3 +1,12 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
 .form-control {
     border-radius: 15px;
 }
@@ -29,18 +38,18 @@
     border: none;
 }
 
-.catagories h1 {
+.catagories h2 {
     color: #eeeded;
 }
 
 .catagories img {
-    width: 100px;
+    width: 50%;
 }
 
 .cat-1,
 .cat-2,
 .cat-3 {
-    padding: 10px 30px;
+    padding: 10px 20px 10px 30px;
 }
 
 .cat-1 {
@@ -81,4 +90,36 @@
 hr {
     height: 1px;
     color: #bebbc5;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    html {
+        font-size: 90.5%;
+    }
+
+    .row {
+        gap: 20px;
+    }
+
+    .catagories img {
+        width: 30%;
+    }
+
+    .card-body .buy-now-btn,
+    .card-footer .buy-now-btn {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:991px) {
+    html {
+        font-size: 95.5%;
+    }
+
+    .catagories h2 {
+        font-size: 1.8rem;
+    }
+
 }
